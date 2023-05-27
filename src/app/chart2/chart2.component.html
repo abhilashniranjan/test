@@ -1,0 +1,53 @@
+
+  <div class="seter">
+
+<div class="lop" *ngFor="let item of cartarr">
+  <div class="card card1">
+    <div class="card-body">
+<div class="row">
+  <div class="col-3">
+    <img  src="{{item.images}}" alt="img" />
+  </div>
+  <div class="col-7">
+  <br>
+    <a class="textert"><b>{{item.description}}</b></a>
+    <p>Rs : {{item.price}}</p>
+  </div>
+  <div class="col-2">
+    <br>
+    <button id="add" class="bt mb-2" (click)="delete(item.id)" data-val="false">Delete</button>
+    <p>    <a class="sefer" (click)="no(item.id,item.qty)">-</a>
+      <a class="sefer mx-1 bagoit"><b>{{item.qty}}</b></a>
+      <a class="sefer" (click)="po(item.id)">+</a>
+  </p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+  </div>
+
+<br>
+<div class="seter">
+
+  <div class="lop">
+    <div class="card  seccart">
+      <div class="card-body">
+  <div class="row">
+    <div class="col-9">
+    <h5><b>Total Amount</b></h5>
+    <h6><b>Rs :{{totalsum}}</b></h6>
+    </div>
+    <div class="col-1">
+    <br>
+    </div>
+    <div class="col-2">
+      <br>
+  <button class="btn btncutt" (click)="generatePDF()">InVoice</button>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+    </div>
+

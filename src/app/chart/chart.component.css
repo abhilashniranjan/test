@@ -1,0 +1,102 @@
+nav{
+  padding: 15px;
+    background: #941094;
+    color: #fff !important;
+}
+
+
+.btncutt{
+  background: #941094;
+  color: #fff !important;
+}
+
+.fuxerst{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.card{
+  margin: 1rem;
+  border-radius:2rem;
+}
+
+.textert{
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.incser{
+font-size: 1.5rem;
+font-weight:400;
+}
+
+
+
+.btnflowing{
+  background: #941094;
+  color:#fff;
+  text-align: center;
+}
+
+.btnflowing:focus{
+  background:white;
+  color:#941094;
+  border: #941094;
+  text-align: center;
+}
+
+.displyflosr{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width:1000px) and (max-width:5000px) {
+  .boderbpp{
+    margin-left:-10rem;
+    border: 1px solid black;
+  }
+  
+  img{
+    width:5rem;
+    height:5rem;
+    margin-left:2rem;
+  }
+  .seter{
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width:0px) and (max-width:750px) {
+  .boderbpp{
+    margin-left:-1rem;
+    border: 1px solid black;
+  }
+  
+  .card{
+    border: none;
+    box-shadow: 0px 0px 5px;
+    margin:0.5rem !important;
+    border-radius:2rem;
+    height:16rem;
+  }
+  img{
+    margin-top:3.5rem !important;
+    width:3rem;
+    height:3rem;
+  }
+  
+.btncutt{
+  margin-top:3rem !important;
+  margin-left: -1rem !important;
+}
+
+  
+}
+

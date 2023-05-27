@@ -1,0 +1,109 @@
+
+nav{
+  padding: 15px;
+    background: #941094;
+    color: #fff !important;
+}
+
+
+.btncutt{
+  background: #941094;
+  color: #fff !important;
+}
+
+.fuxerst{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.card1{
+  margin: 1rem;
+  border-radius:2rem;
+}
+
+.bagoit{
+  background: #941094;
+  color: #fff !important;
+}
+
+.sefer{
+  padding-left:0.6rem !important;
+  padding-right:0.6rem !important;
+  border: 2px solid gray;  
+  border-radius: 0.3rem;
+}
+
+.textert{
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.incser{
+font-size: 1.5rem;
+font-weight:400;
+}
+
+@media (min-width:1000px) and (max-width:5000px) {
+  .boderbpp{
+    margin-left:-10rem;
+    border: 1px solid black;
+  }
+  
+  img{
+    width:5rem;
+    height:5rem;
+    margin-left:2rem;
+  }
+  .seter{
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+
+
+@media (min-width:0px) and (max-width:750px) {
+  .boderbpp{
+    margin-left:-1rem;
+    border: 1px solid black;
+  }
+  .textert{
+    font-size: 0.9rem !important;
+    line-height: 1rem;
+  }
+  .seccart{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+  }
+  .card1{
+    border: none;
+    box-shadow: 0px 0px 8px;
+    margin:0.8rem !important;
+    border-radius:2rem;
+    height:15rem;
+  }
+  img{
+    margin-top:3.5rem !important;
+    width:3rem;
+    height:3rem;
+  }
+
+  .bagoit{
+    margin-left:-0.1rem !important;
+  }
+  
+.btncutt{
+  margin-top:-1rem !important;
+  margin-left: -1rem !important;
+}
+
+  
+}
+

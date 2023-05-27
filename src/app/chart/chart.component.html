@@ -1,0 +1,68 @@
+
+<nav class="navbar" #target>
+  <div class="container-fluid">
+    <h1 class="navbar-brand incser">Products</h1>
+    <div class="d-flex">
+      <button class="btn btn-light boderbpp" type="submit" (click)="navigate()"><i class="fa-solid fa-cart-plus"></i></button>
+    </div>
+  </div>
+</nav>
+  <div class="seter mt-3">
+<div class="lop" *ngFor="let iem of storearr;index as i">
+  <div class="card">
+    <div class="card-body">
+<div class="row">
+  <div class="col-3">
+   <img src="{{iem.images[0]}}" alt="Detailed image description would go here." />
+  </div>
+  <div class="col-7">
+  <br>
+    <a class="textert"><b>{{iem.description}}</b></a>
+    <p>Rs : {{iem.price}}</p>
+  </div>
+  <div class="col-2">
+    <br>
+    <button id="add" class="btn btncutt" (click)="addtocart(iem)" data-val="false">+Add</button>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <br>
+
+  <div class="displyflosr">
+    <div>
+      <button class="btn btnflowing" (click)="page(one)" (click)="scroll(target)">1</button>
+    </div>
+    <div>
+      <button class="btn btnflowing" (click)="page(two)" (click)="scroll(target)">2</button>
+    </div>
+    <div>
+      <button class="btn btnflowing" (click)="page(three)" (click)="scroll(target)">3</button>
+    </div>
+    <div>
+      <button class="btn btnflowing"  (click)="page(three)" (click)="scroll(target)">4</button>
+    </div>
+    <div>
+      <button class="btn btnflowing"  (click)="page(five)" (click)="scroll(target)">5</button>
+    </div>
+    <div>
+      <button class="btn btnflowing"  (click)="page(six)" (click)="scroll(target)">6</button>
+    </div>
+    <div>
+      <button class="btn btnflowing"  (click)="page(seven)" (click)="scroll(target)">7</button>
+    </div>
+    <div>
+      <button class="btn btnflowing"  (click)="page(eight)" (click)="scroll(target)">8</button>
+    </div>
+    <div>
+      <button class="btn btnflowing"  (click)="page(nine)" (click)="scroll(target)">9</button>
+    </div>
+    <div>
+      <button class="btn btnflowing"  (click)="page(ten)">10</button>
+    </div>
+  </div>
+
+<br><br><br><br><br>
